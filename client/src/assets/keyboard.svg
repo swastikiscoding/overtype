@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 284" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C850F2" />
+      <stop offset="100%" stop-color="#5E29FF" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* Clean flat styling */
+    .key { fill: #251c33; transition: fill 0.2s ease; }
+    .key:hover { fill: #36284a; cursor: pointer; }
+    
+    .accent { fill: url(#brandGrad); transition: opacity 0.2s ease; }
+    .accent:hover { opacity: 0.85; cursor: pointer; }
+    
+    .wasd { fill: #2c1f40; stroke: url(#brandGrad); stroke-width: 1.5px; transition: fill 0.2s ease; }
+    .wasd:hover { fill: #3a2559; cursor: pointer; }
+    
+    /* Typography */
+    .lbl { font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 600; fill: #e2d8f0; font-size: 12px; text-anchor: middle; pointer-events: none; }
+    .lbl-mod { font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 600; fill: #a99cb8; font-size: 10px; letter-spacing: 0.5px; text-anchor: middle; pointer-events: none; }
+    .lbl-acc { font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 700; fill: #ffffff; font-size: 11px; letter-spacing: 1px; text-anchor: middle; pointer-events: none; }
+    
+    /* Arrow Icons */
+    .arrow { stroke: #e2d8f0; stroke-width: 2px; fill: none; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
+  </style>
+
+  <rect x="0" y="0" width="744" height="284" rx="16" fill="#130e1b" stroke="url(#brandGrad)" stroke-width="2" />
+  <rect x="14" y="14" width="716" height="256" rx="8" fill="#1a1425" />
+  
+  <rect x="30" y="19" width="684" height="2" rx="1" fill="url(#brandGrad)" opacity="0.6" />
+
+  <g transform="translate(0, 30)">
+    <rect x="30" y="0" width="40" height="40" rx="6" class="accent" />
+    <text x="50" y="24" class="lbl-acc">ESC</text>
+
+    <rect x="76" y="0" width="40" height="40" rx="6" class="key" /><text x="96" y="24" class="lbl">1</text>
+    <rect x="122" y="0" width="40" height="40" rx="6" class="key" /><text x="142" y="24" class="lbl">2</text>
+    <rect x="168" y="0" width="40" height="40" rx="6" class="key" /><text x="188" y="24" class="lbl">3</text>
+    <rect x="214" y="0" width="40" height="40" rx="6" class="key" /><text x="234" y="24" class="lbl">4</text>
+    <rect x="260" y="0" width="40" height="40" rx="6" class="key" /><text x="280" y="24" class="lbl">5</text>
+    <rect x="306" y="0" width="40" height="40" rx="6" class="key" /><text x="326" y="24" class="lbl">6</text>
+    <rect x="352" y="0" width="40" height="40" rx="6" class="key" /><text x="372" y="24" class="lbl">7</text>
+    <rect x="398" y="0" width="40" height="40" rx="6" class="key" /><text x="418" y="24" class="lbl">8</text>
+    <rect x="444" y="0" width="40" height="40" rx="6" class="key" /><text x="464" y="24" class="lbl">9</text>
+    <rect x="490" y="0" width="40" height="40" rx="6" class="key" /><text x="510" y="24" class="lbl">0</text>
+    <rect x="536" y="0" width="40" height="40" rx="6" class="key" /><text x="556" y="24" class="lbl">-</text>
+    <rect x="582" y="0" width="40" height="40" rx="6" class="key" /><text x="602" y="24" class="lbl">=</text>
+    
+    <rect x="628" y="0" width="86" height="40" rx="6" class="key" />
+    <text x="671" y="24" class="lbl-mod">BACKSPACE</text>
+  </g>
+
+  <g transform="translate(0, 76)">
+    <rect x="30" y="0" width="63" height="40" rx="6" class="key" />
+    <text x="61.5" y="24" class="lbl-mod">TAB</text>
+
+    <rect x="99" y="0" width="40" height="40" rx="6" class="key" /><text x="119" y="24" class="lbl">Q</text>
+    <rect x="145" y="0" width="40" height="40" rx="6" class="wasd" /><text x="165" y="24" class="lbl">W</text>
+    <rect x="191" y="0" width="40" height="40" rx="6" class="key" /><text x="211" y="24" class="lbl">E</text>
+    <rect x="237" y="0" width="40" height="40" rx="6" class="key" /><text x="257" y="24" class="lbl">R</text>
+    <rect x="283" y="0" width="40" height="40" rx="6" class="key" /><text x="303" y="24" class="lbl">T</text>
+    <rect x="329" y="0" width="40" height="40" rx="6" class="key" /><text x="349" y="24" class="lbl">Y</text>
+    <rect x="375" y="0" width="40" height="40" rx="6" class="key" /><text x="395" y="24" class="lbl">U</text>
+    <rect x="421" y="0" width="40" height="40" rx="6" class="key" /><text x="441" y="24" class="lbl">I</text>
+    <rect x="467" y="0" width="40" height="40" rx="6" class="key" /><text x="487" y="24" class="lbl">O</text>
+    <rect x="513" y="0" width="40" height="40" rx="6" class="key" /><text x="533" y="24" class="lbl">P</text>
+    <rect x="559" y="0" width="40" height="40" rx="6" class="key" /><text x="579" y="24" class="lbl">[</text>
+    <rect x="605" y="0" width="40" height="40" rx="6" class="key" /><text x="625" y="24" class="lbl">]</text>
+
+    <rect x="651" y="0" width="63" height="40" rx="6" class="key" />
+    <text x="682.5" y="24" class="lbl">\</text>
+  </g>
+
+  <g transform="translate(0, 122)">
+    <rect x="30" y="0" width="78" height="40" rx="6" class="key" />
+    <text x="69" y="24" class="lbl-mod">CAPS</text>
+
+    <rect x="114" y="0" width="40" height="40" rx="6" class="wasd" /><text x="134" y="24" class="lbl">A</text>
+    <rect x="160" y="0" width="40" height="40" rx="6" class="wasd" /><text x="180" y="24" class="lbl">S</text>
+    <rect x="206" y="0" width="40" height="40" rx="6" class="wasd" /><text x="226" y="24" class="lbl">D</text>
+    <rect x="252" y="0" width="40" height="40" rx="6" class="key" /><text x="272" y="24" class="lbl">F</text>
+    <rect x="298" y="0" width="40" height="40" rx="6" class="key" /><text x="318" y="24" class="lbl">G</text>
+    <rect x="344" y="0" width="40" height="40" rx="6" class="key" /><text x="364" y="24" class="lbl">H</text>
+    <rect x="390" y="0" width="40" height="40" rx="6" class="key" /><text x="410" y="24" class="lbl">J</text>
+    <rect x="436" y="0" width="40" height="40" rx="6" class="key" /><text x="456" y="24" class="lbl">K</text>
+    <rect x="482" y="0" width="40" height="40" rx="6" class="key" /><text x="502" y="24" class="lbl">L</text>
+    <rect x="528" y="0" width="40" height="40" rx="6" class="key" /><text x="548" y="24" class="lbl">;</text>
+    <rect x="574" y="0" width="40" height="40" rx="6" class="key" /><text x="594" y="24" class="lbl">'</text>
+
+    <rect x="620" y="0" width="94" height="40" rx="6" class="accent" />
+    <text x="667" y="24" class="lbl-acc">ENTER</text>
+  </g>
+
+  <g transform="translate(0, 168)">
+    <rect x="30" y="0" width="94" height="40" rx="6" class="key" />
+    <text x="77" y="24" class="lbl-mod">SHIFT</text>
+
+    <rect x="130" y="0" width="40" height="40" rx="6" class="key" /><text x="150" y="24" class="lbl">Z</text>
+    <rect x="176" y="0" width="40" height="40" rx="6" class="key" /><text x="196" y="24" class="lbl">X</text>
+    <rect x="222" y="0" width="40" height="40" rx="6" class="key" /><text x="242" y="24" class="lbl">C</text>
+    <rect x="268" y="0" width="40" height="40" rx="6" class="key" /><text x="288" y="24" class="lbl">V</text>
+    <rect x="314" y="0" width="40" height="40" rx="6" class="key" /><text x="334" y="24" class="lbl">B</text>
+    <rect x="360" y="0" width="40" height="40" rx="6" class="key" /><text x="380" y="24" class="lbl">N</text>
+    <rect x="406" y="0" width="40" height="40" rx="6" class="key" /><text x="426" y="24" class="lbl">M</text>
+    <rect x="452" y="0" width="40" height="40" rx="6" class="key" /><text x="472" y="24" class="lbl">,</text>
+    <rect x="498" y="0" width="40" height="40" rx="6" class="key" /><text x="518" y="24" class="lbl">.</text>
+    <rect x="544" y="0" width="40" height="40" rx="6" class="key" /><text x="564" y="24" class="lbl">/</text>
+
+    <rect x="590" y="0" width="78" height="40" rx="6" class="key" />
+    <text x="629" y="24" class="lbl-mod">SHIFT</text>
+
+    <rect x="674" y="0" width="40" height="40" rx="6" class="key" />
+    <path d="M689,22 L694,17 L699,22" class="arrow" />
+  </g>
+
+  <g transform="translate(0, 214)">
+    <rect x="30" y="0" width="51" height="40" rx="6" class="key" />
+    <text x="55.5" y="24" class="lbl-mod">CTRL</text>
+
+    <rect x="87" y="0" width="52" height="40" rx="6" class="key" />
+    <text x="113" y="24" class="lbl-mod">WIN</text>
+
+    <rect x="145" y="0" width="51" height="40" rx="6" class="key" />
+    <text x="170.5" y="24" class="lbl-mod">ALT</text>
+
+    <rect x="202" y="0" width="282" height="40" rx="6" class="key" />
+    <rect x="323" y="23" width="40" height="3" rx="1.5" fill="#3a2a52" pointer-events="none" />
+
+    <rect x="490" y="0" width="40" height="40" rx="6" class="key" />
+    <text x="510" y="24" class="lbl-mod">ALT</text>
+
+    <rect x="536" y="0" width="40" height="40" rx="6" class="key" />
+    <text x="556" y="24" class="lbl-mod">FN</text>
+
+    <rect x="582" y="0" width="40" height="40" rx="6" class="key" />
+    <path d="M605,17 L600,22 L605,27" class="arrow" />
+
+    <rect x="628" y="0" width="40" height="40" rx="6" class="key" />
+    <path d="M643,19 L648,24 L653,19" class="arrow" />
+
+    <rect x="674" y="0" width="40" height="40" rx="6" class="key" />
+    <path d="M691,17 L696,22 L691,27" class="arrow" />
+  </g>
+</svg>
