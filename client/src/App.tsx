@@ -26,7 +26,7 @@ export default function App() {
               <Keyboard className="h-5 w-5 text-primary" />
             </div>
             <span className="font-heading text-3xl tracking-wide">
-              TypeArena
+              Overtype
             </span>
           </motion.div>
 
